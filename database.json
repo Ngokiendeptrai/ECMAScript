@@ -1,0 +1,48 @@
+{
+  "categories": [{ "id": "1", "name": "Electronics" }],
+  "products": [
+    {
+      "id": "1",
+      "name": "Smartphone",
+      "cate_id": "1",
+      "price": 500,
+      "detail": "High-end smartphone with advanced features",
+      "image": "https://gongcha.com.vn/wp-content/uploads/2018/10/kem-tc.png"
+    },
+    {
+      "id": "2",
+      "name": "Smartphone",
+      "cate_id": "1",
+      "price": 500,
+      "detail": "High-end smartphone with advanced features",
+      "image": "https://gongcha.com.vn/wp-content/uploads/2018/10/kem.png"
+    },
+    {
+      "id": "3",
+      "name": "Smartphone",
+      "cate_id": "1",
+      "price": 500,
+      "detail": "High-end smartphone with advanced features",
+      "image": "https://gongcha.com.vn/wp-content/uploads/2023/10/TRA-NHO.png"
+    }
+  ],
+  "orders": [
+    {
+      "id": "201",
+      "customer_name": "John Doe",
+      "customer_address": "123 Main St, City",
+      "customer_email": "john.doe@example.com",
+      "customer_phone_number": "123-456-7890",
+      "created_date": "2024-01-11T12:34:56.789Z",
+      "status": "pending"
+    }
+  ],
+  "order_details": [
+    {
+      "order_id": "201",
+      "product_id": "101",
+      "quantity": 2,
+      "unit_price": 500
+    }
+  ]
+}
